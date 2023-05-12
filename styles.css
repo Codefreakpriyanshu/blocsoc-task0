@@ -1,0 +1,234 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@1,500&display=swap');
+
+ .navbar-items {
+  display: flex;
+  list-style: none;
+  justify-content: flex-start;
+  justify-content: space-between;
+
+}
+body{
+ background-image: linear-gradient(to right top, #d16ba5, #c777b9, #ba83ca, #aa8fd8, #9a9ae1, #8aa7ec, #79b3f4, #69bff8, #52cffe, #41dfff, #46eefa, #5ffbf1);
+}
+
+ul {
+  display: flex;
+  list-style: none;
+  gap:50px;
+  margin-right: 5rem ;
+}
+.name{
+  font-family: 'Exo 2', sans-serif;
+  text-align : center;
+  font-size: 64px;
+  font-weight: 500;
+  color: white;
+  margin-right: 40px;
+  margin-bottom: 60px;
+  text-shadow: 0px 3px 10px black;
+}
+.About{
+  font-family: 'Poppins',sans-serif ;
+  text-align : center;
+  font-size: 64px;
+  font-weight: 500;
+  color: black;
+  margin-bottom: 30px;
+  /* margin-bottom: 60px; */
+}
+.info{
+  border : 3px solid white;
+  padding:50px;
+  margin : 0px 10rem;
+  font-size:20px;
+  font-style: 'Poppins', sans-serif ;
+  border-top-left-radius: 80px;
+  border-bottom-right-radius: 80px;
+  border-top-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+}
+.info1{
+  text-align : center;
+  padding: 60px;
+}
+.rules{
+  font-family: 'Poppins',sans-serif;
+  margin-top : 50px;
+  text-align : center;
+}
+.rules strong{
+  font-size:40px;
+  text-shadow :0px 0px 4px 0px;
+
+}
+.schedule{
+  margin-top: 50px;
+  text-align: center;
+
+}
+.schedule{
+  font-style: 'Poppins', sans-serif ;
+  font-size : 25px;
+  border : 2px solid white;
+  margin-left: 25rem;
+  margin-right: 25rem;
+  padding:10px;
+  border-radius: 15px;
+
+}
+.schedule-1 {
+  font-style: 'Poppins', sans-serif ;
+  font-size : 40px;
+}
+.Timeline{
+  text-align : center;
+  font-style: 'Poppins', sans-serif ;
+  margin-top: 30px;
+  font-size : 40px;
+  margin-bottom: 70px;
+}
+.timeline {
+  text-align: center;
+  padding : 20px;
+  position: relative;
+}
+.timeline-1{
+  display: flex;
+  justify-content: space-between;
+  padding-left: 6rem;
+  padding-right: 35rem;
+  margin-bottom: 0;
+
+}
+.timeline-2{
+  display: flex;
+  justify-content: space-between;
+  padding-left: 14.5rem;;
+  padding-right: 6.4rem;
+
+}
+.day-0{
+  border-bottom: 5px solid white;
+  border-right: 3px solid white;
+  border-bottom-right-radius: 10px;
+  border-top-right-radius: 10px;
+  font-size: 30px;
+  margin-bottom: 0;
+
+
+
+}
+.day-1{
+  border-top: 5px solid white;
+  border-left: 3px solid white;
+  border-top-left-radius: 10px;
+  font-size: 30px;
+}
+.day-2{
+  border-bottom: 5px solid white;
+  border-right: 3px solid white;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  font-size: 30px;
+}
+.day-3{
+  border-top: 5px solid white;
+  border-left: 3px solid white;
+  border-top-left-radius: 10px;
+  font-size: 30px;
+}
+.Contact h1{
+  text-align: center;
+}
+.Contact{
+  margin-top: 100px;
+}
+.Contact div{
+  display: flex;
+
+
+}
+
+.contact-1{
+  justify-content: center;
+  margin-left: 2rem;
+}
+.contact-2{
+  justify-content: center;
+  margin-left:2rem;
+}
+.instagram img{
+  width: 40px;
+  height: 40px;
+  margin-right: 50px;
+}
+.linktree img{
+  width: 40px;
+  height: 40px;
+  margin : 0;
+  margin-right: 50px;
+
+}
+.twitter img{
+  width: 40px;
+  height: 40px;
+
+}
+.github img{
+  width: 40px;
+  height: 40px;
+  margin-right: 50px;
+
+}
+.discord img{
+  width: 40px;
+  height: 40px;
+  margin-right: 50px;
+
+}
+.linked-in img{
+  width: 40px;
+  height: 40px;
+
+}
+
+.linked-in :hover{
+  scale : 1.1;
+}
+.instagram :hover{
+  scale : 1.1;
+}
+.github :hover{
+  scale : 1.1;
+}
+.twitter :hover{
+  scale : 1.1;
+}
+.discord :hover{
+  scale : 1.1;
+}
+.linktree :hover{
+  scale : 1.1;
+
+
+}
+.footer{
+  display: flex;
+  margin-left: 50px;
+  border: 2px solid white;
+  border-radius: 15px;
+  padding:15px;
+  margin-top: 50px;
+
+
+
+}
+.footer span{
+  position: relative;
+  margin-left: 55rem;
+  margin-top: 1rem;
+  font-size: 20px;
+}
